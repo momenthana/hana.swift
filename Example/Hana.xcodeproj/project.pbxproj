@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DFB91A991F32E424192A3C9 /* Pods_Hana_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177E599957C67F7066C37001 /* Pods_Hana_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E076B607BF0882A319E3502E /* Pods_Hana_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF75F15B060CC13179AB99EC /* Pods_Hana_Example.framework */; };
+		A58AB50D0E2E27EE03032CF5 /* Pods_Hana_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B26DCD524CF502D7B46CACD /* Pods_Hana_Tests.framework */; };
+		EA43075300ED7148A7FAA540 /* Pods_Hana_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76BDC2EE5474AB49826BDC3 /* Pods_Hana_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E97B0702FB1E4AF8252674F /* Pods-Hana_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hana_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Hana_Tests/Pods-Hana_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		177E599957C67F7066C37001 /* Pods_Hana_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hana_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45BB49928181358BC1886A6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		379FEA632646853333F99F85 /* Pods-Hana_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hana_Example.release.xcconfig"; path = "Target Support Files/Pods-Hana_Example/Pods-Hana_Example.release.xcconfig"; sourceTree = "<group>"; };
+		45BB49928181358BC1886A6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B26DCD524CF502D7B46CACD /* Pods_Hana_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hana_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Hana_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hana_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* Hana_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hana_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B96793A315DEF3111C154A3 /* Pods-Hana_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hana_Tests.release.xcconfig"; path = "Target Support Files/Pods-Hana_Tests/Pods-Hana_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8C4EE5D0BBA9F87AF88E2E42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BD69D6758CD908EFCAC5F89F /* Hana.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Hana.podspec; path = ../Hana.podspec; sourceTree = "<group>"; };
-		D8B310DE11BDBF854E56C663 /* Pods-Hana_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hana_Example.debug.xcconfig"; path = "Target Support Files/Pods-Hana_Example/Pods-Hana_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF75F15B060CC13179AB99EC /* Pods_Hana_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hana_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E34B94850AFCC42501DEFCC5 /* Pods-Hana_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hana_Example.release.xcconfig"; path = "Target Support Files/Pods-Hana_Example/Pods-Hana_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7E789A35147CA06092FB6F6A /* Pods-Hana_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hana_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Hana_Tests/Pods-Hana_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C4EE5D0BBA9F87AF88E2E42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD69D6758CD908EFCAC5F89F /* Hana.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hana.podspec; path = ../Hana.podspec; sourceTree = "<group>"; };
+		C76BDC2EE5474AB49826BDC3 /* Pods_Hana_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hana_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87CB065E67AC5FFE341F4CE /* Pods-Hana_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hana_Example.debug.xcconfig"; path = "Target Support Files/Pods-Hana_Example/Pods-Hana_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FB66BF42E398EC8B58DD46EE /* Pods-Hana_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hana_Tests.release.xcconfig"; path = "Target Support Files/Pods-Hana_Tests/Pods-Hana_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E076B607BF0882A319E3502E /* Pods_Hana_Example.framework in Frameworks */,
+				EA43075300ED7148A7FAA540 /* Pods_Hana_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,20 +62,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFB91A991F32E424192A3C9 /* Pods_Hana_Tests.framework in Frameworks */,
+				A58AB50D0E2E27EE03032CF5 /* Pods_Hana_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DEE0B1D7B880729A6C11EE5 /* Frameworks */ = {
+		2F8355E8223526C4F69AF2D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF75F15B060CC13179AB99EC /* Pods_Hana_Example.framework */,
-				177E599957C67F7066C37001 /* Pods_Hana_Tests.framework */,
+				C76BDC2EE5474AB49826BDC3 /* Pods_Hana_Example.framework */,
+				4B26DCD524CF502D7B46CACD /* Pods_Hana_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EEF93389C08CA0EC09A5B22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C87CB065E67AC5FFE341F4CE /* Pods-Hana_Example.debug.xcconfig */,
+				379FEA632646853333F99F85 /* Pods-Hana_Example.release.xcconfig */,
+				7E789A35147CA06092FB6F6A /* Pods-Hana_Tests.debug.xcconfig */,
+				FB66BF42E398EC8B58DD46EE /* Pods-Hana_Tests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -85,8 +96,8 @@
 				607FACD21AFB9204008FA782 /* Example for Hana */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				AFECCCE47FDD23F585E8A031 /* Pods */,
-				0DEE0B1D7B880729A6C11EE5 /* Frameworks */,
+				5EEF93389C08CA0EC09A5B22 /* Pods */,
+				2F8355E8223526C4F69AF2D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,18 +159,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		AFECCCE47FDD23F585E8A031 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D8B310DE11BDBF854E56C663 /* Pods-Hana_Example.debug.xcconfig */,
-				E34B94850AFCC42501DEFCC5 /* Pods-Hana_Example.release.xcconfig */,
-				0E97B0702FB1E4AF8252674F /* Pods-Hana_Tests.debug.xcconfig */,
-				7B96793A315DEF3111C154A3 /* Pods-Hana_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Hana_Example" */;
 			buildPhases = (
-				8B1B7E44B63ADB01A06C419B /* [CP] Check Pods Manifest.lock */,
+				0B12B7EFAD52092FB7DA43A7 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				683225D678A14D85EA6604CC /* [CP] Embed Pods Frameworks */,
+				FD8A41E13F33CF1AFD1924DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,11 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Hana_Tests" */;
 			buildPhases = (
-				F873636F6D917F2316BDB10F /* [CP] Check Pods Manifest.lock */,
+				E50716883CF5FFE14E320072 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				EB6161564BC4575E15AE21C1 /* [CP] Embed Pods Frameworks */,
+				FAD97605E305A7A0B241BB07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,25 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		683225D678A14D85EA6604CC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Hana_Example/Pods-Hana_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Hana/Hana.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hana.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hana_Example/Pods-Hana_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B1B7E44B63ADB01A06C419B /* [CP] Check Pods Manifest.lock */ = {
+		0B12B7EFAD52092FB7DA43A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,7 +285,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB6161564BC4575E15AE21C1 /* [CP] Embed Pods Frameworks */ = {
+		E50716883CF5FFE14E320072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hana_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD97605E305A7A0B241BB07 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,26 +332,22 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hana_Tests/Pods-Hana_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F873636F6D917F2316BDB10F /* [CP] Check Pods Manifest.lock */ = {
+		FD8A41E13F33CF1AFD1924DD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-Hana_Example/Pods-Hana_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Hana/Hana.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Hana_Tests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hana.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hana_Example/Pods-Hana_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -445,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -491,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -501,7 +501,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8B310DE11BDBF854E56C663 /* Pods-Hana_Example.debug.xcconfig */;
+			baseConfigurationReference = C87CB065E67AC5FFE341F4CE /* Pods-Hana_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hana/Info.plist;
@@ -516,7 +516,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E34B94850AFCC42501DEFCC5 /* Pods-Hana_Example.release.xcconfig */;
+			baseConfigurationReference = 379FEA632646853333F99F85 /* Pods-Hana_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hana/Info.plist;
@@ -531,7 +531,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E97B0702FB1E4AF8252674F /* Pods-Hana_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7E789A35147CA06092FB6F6A /* Pods-Hana_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -553,7 +553,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B96793A315DEF3111C154A3 /* Pods-Hana_Tests.release.xcconfig */;
+			baseConfigurationReference = FB66BF42E398EC8B58DD46EE /* Pods-Hana_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

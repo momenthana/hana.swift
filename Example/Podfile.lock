@@ -5,25 +5,25 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Hana (0.0.1)
-  - iOSSnapshotTestCase (5.0.2):
-    - iOSSnapshotTestCase/SwiftSupport (= 5.0.2)
-  - iOSSnapshotTestCase/Core (5.0.2)
-  - iOSSnapshotTestCase/SwiftSupport (5.0.2):
+  - iOSSnapshotTestCase (6.2.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
+  - iOSSnapshotTestCase/Core (6.2.0)
+  - iOSSnapshotTestCase/SwiftSupport (6.2.0):
     - iOSSnapshotTestCase/Core
-  - Nimble (7.3.4)
-  - Nimble-Snapshots (6.9.1):
-    - Nimble-Snapshots/Core (= 6.9.1)
-  - Nimble-Snapshots/Core (6.9.1):
-    - iOSSnapshotTestCase (~> 5.0)
-    - Nimble (~> 7.0)
+  - Nimble (9.2.1)
+  - Nimble-Snapshots (9.1.1):
+    - Nimble-Snapshots/Core (= 9.1.1)
+  - Nimble-Snapshots/Core (9.1.1):
+    - iOSSnapshotTestCase (~> 6.0)
+    - Nimble
   - Quick (4.0.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
+  - FBSnapshotTestCase (~> 2.1.4)
   - Hana (from `../`)
-  - Nimble
-  - Nimble-Snapshots
-  - Quick
+  - Nimble (~> 9.2.1)
+  - Nimble-Snapshots (~> 9.1.1)
+  - Quick (~> 4.0.0)
 
 SPEC REPOS:
   trunk:
@@ -39,12 +39,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Hana: b57d2d9a9e85fb6d2c98c3f726e5df9f02cd82b2
-  iOSSnapshotTestCase: 2d51aa06775e95cecb0a1fb9c5c159ccd1dd4596
-  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  Nimble-Snapshots: bbd1ab264bacc24a9ce24a8363bc05aac783aeb0
+  Hana: ae46082bd38110c5f65204082bffb9fcd1489a00
+  iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  Nimble-Snapshots: 881d47f238c5462f38ffcccb1747b17c633b2c18
   Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
 
-PODFILE CHECKSUM: e6062ec8867a6234696bd3706742513ec95820ed
+PODFILE CHECKSUM: 68ee426504cb7cc522781a3b249933acbea0258d
 
 COCOAPODS: 1.11.2
